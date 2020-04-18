@@ -4,10 +4,13 @@ Refer to [Serverless docs](https://serverless.com/framework/docs/providers/azure
 
 ### How to start
 
+1. Create a virtual environment
+    - Windows: `py -m venv env ; env\Scripts\Activate.ps1 ; pip install -r requirements.txt`
+    - Linux: `python3 -m venv env && source env\bin\activate && pip install -r requirements.txt`
 1. Get the serverless framework [here](https://serverless.com/framework/docs/getting-started/)
 2. Run `npm install` to resolve packages
 3. Run `sls offline` to start debugging server on your local devbox
-4. Make a GET request to http://localhost:7071/, http://localhost:7071/user, http://localhost:7071/user/1 to walkthrough the Flask routes
+4. Make a GET request to http://localhost:7071/
 
 ### How to deploy
 
